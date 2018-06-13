@@ -1,0 +1,6 @@
+print('=========Desafio 005========')
+numero = int(input('Digite um numero: '))
+print('Antecessor: {}'.format(numero-1))
+print('Numero: {}'.format(numero))
+print('Sucessor: {}'.format(numero+1))
+print('Numero {} seu Antecessor {} e Sucessor {} '.format(numero, (numero - 1), (numero + 1)))
