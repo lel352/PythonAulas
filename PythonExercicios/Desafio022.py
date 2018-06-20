@@ -1,0 +1,11 @@
+print('=========Desafio 022========')
+nome = str(input('Digite seu nome completo: ')).strip()
+print('Nome Maiúscula {} '.format(nome.upper()))
+print('Nome Minúscula {} '.format(nome.lower()))
+letras = nome.replace(' ', '')
+print('Total de letra {} '.format(len(letras)))
+dividio = nome.split()
+print('Total de letra do primeiro nome {} '.format(len(dividio[0])))
+#ou
+#print('Total de letra {} '.format(len(nome) - nome.find(' ')))
+#print('Total de letra do primeiro nome {} '.format(nome.find(' ')))

@@ -1,0 +1,5 @@
+print('=========Desafio 026========')
+frase = str(input('Nome: ')).strip()
+lista = frase.split()
+print('Primeiro: {}'.format(lista[0]))
+print('Ultimo: {}'.format(lista[len(lista)-1]))
